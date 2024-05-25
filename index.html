@@ -32,13 +32,25 @@
                 <button onclick="insertDisplay('1')" >1</button>
                 <button onclick="insertDisplay('2')" >2</button>
                 <button onclick="insertDisplay('3')" >3</button>
-                <button onclick="insertDisplay('-')" class="btnColor">-</button>
-                <button onclick="insertDisplay('0')" >0</button>
                 <button onclick="insertDisplay('/')" class="btnColor">&#247</button>
+                <button onclick="insertDisplay('0')" >0</button>
                 <button onclick="insertDisplay('+')" class="btnColor">+</button>
-                <button onclick="calculate()" class="btnColor">=</button>
                 <button onclick="insertDisplay('*')" class="btnColor">&#215</button>
+                <button onclick="calculate()" class="EqualbtnColor">=</button>
+                <button onclick="insertDisplay('-')" class="btnColor">-</button>
         </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal2" class="modal2">
+
+        <!-- Modal content -->
+        <div class="modal2-content">
+        <span class="close2">&times;</span>
+        <span>Calculating Error</span><br>
+        <span class="gray">Please Enter Valid Value</span>
+        </div>
+    
     </div>
    
     <script src="js/index.js"></script>
